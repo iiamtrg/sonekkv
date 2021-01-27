@@ -1,0 +1,5 @@
+.idea
+*.tmp
+sonekKV
+build.sh
+data
