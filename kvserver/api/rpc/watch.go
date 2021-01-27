@@ -41,9 +41,6 @@ func (s *watchServer) KV() service.WatchableKV {
 type serverWatchStream struct {
 	lg *zap.Logger
 
-	clusterID int64
-	memberID  int64
-
 	maxRequestBytes int
 
 	watchable service.Watchable
